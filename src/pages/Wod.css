@@ -1,0 +1,52 @@
+select {
+  margin-bottom: 1rem;
+}
+
+pre {
+  font-family: 'Courier New', monospace;
+}
+.wod-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.wod-card h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #e63946;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+
+.wod-card p {
+  margin: 0.3rem 0;
+}
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #c9303e;
+}
