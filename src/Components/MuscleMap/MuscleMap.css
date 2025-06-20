@@ -1,0 +1,48 @@
+.muscle-map-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.toggle-btn {
+  background-color: #a12c2c;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.toggle-btn:hover {
+  background-color: #d44a4a;
+}
+
+.muscle-map-svg {
+  max-width: 200px;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.muscle {
+  fill: #a12c2c;
+  stroke: white;
+  stroke-width: 1;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.muscle:hover {
+  fill: #f77f00;
+}
+
+.muscle-shape.active {
+  fill: #f77f00 !important;
+  stroke: #922b21;
+  stroke-width: 1.5;
+}
+
+svg{
+  width: 50%;
+}
